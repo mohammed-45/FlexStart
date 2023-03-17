@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Start</title>
+
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <link href="vendor/aos/aos.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous"> 
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+          <div class="logo d-flex align-items-center">
+            <img src="img/logo.png" alt="">
+            <a class="navbar-brand" href="#">FlexStart</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-3 mb-2 mb-lg-0 fs-6">
+              <li class="nav-item">
+                <a class="nav-link active px-3 " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link px-3" href="#">Drop Down <i class="fa-solid fa-chevron-down"></i></a>
+                <ul>
+                  <li class="nav-item"><a class="nav-link px-3" href="#">Drop Down 1</a></li>
+                  <li class="nav-item dropdown"><a class="nav-link px-3" href="#">Deep Drop Down<i class="fa-solid fa-chevron-down m-1"></i></a>
+                    <ul>
+                      <li class="nav-item"><a class="nav-link px-3" href="#">Deep Drop Down 1</a></li>
+                      <li class="nav-item"><a class="nav-link px-3" href="#">Deep Drop Down 2</a></li>
+                      <li class="nav-item"><a class="nav-link px-3" href="#">Deep Drop Down 3</a></li>
+                      <li class="nav-item"><a class="nav-link px-3" href="#">Deep Drop Down 4</a></li>
+                      <li class="nav-item"><a class="nav-link px-3" href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-link px-3" href="#">Drop Down 2</a></li>
+                  <li class="nav-item"><a class="nav-link px-3" href="#">Drop Down 3</a></li>
+                  <li class="nav-item"><a class="nav-link px-3" href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <a href="#about" class="main-btn rounded-1" >Get Started</a>
+          </div>
+        </div>
+      </nav>
+      <div class="landing d-flex align-items-center mb-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
+                    <h2 data-aos="fade-up">We are team of talented designers making websites with Bootstrap</h2>
+                    <div data-aos="fade-up" data-aos-delay="600">
+                      <a href="#about" class="main-btn rounded-1"><span>Get Started</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="200">
+                      <div class="image">
+                          <img class="img-fluid" src="img/hero-img.png" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="about py-5" id="about">
+          <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6 p-5 ">
+                    <div class="main-title m-0">
+                        <h3>WHO WE ARE</h3>
+                        <p class="text-start fw-semibold fs-4">Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
+                    </div>
+                    <p class="lh-md mt-4 mb-5 fs-6">Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.</p>
+                    <a href="#about" class="main-btn rounded-1"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="col-lg-6 p-lg-0">
+                    <div class="image">
+                        <img class="img-fluid" src="img/about.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="values py-5">
+        <div class="container">
+          <div class="main-title">
+            <h3>OUR VALUES</h3>
+            <p>Odit est perspiciatis laborum et dicta</p>
+          </div>
+          <div class="row mb-5">
+            <div class="col-lg-4 col-md-6">
+              <div class="box p-4 text-center">
+                <img class="img-fluid p-4" src="img/values-1.png" alt="">
+                <h4>Ad cupiditate sed est odio</h4>
+                <p class="pt-2">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box p-4 text-center">
+                <img class="img-fluid p-4" src="img/values-2.png" alt="">
+                <h4>Voluptatem voluptatum</h4>
+                <p class="pt-2">Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box p-4 text-center">
+                <img class="img-fluid p-4" src="img/values-3.png" alt="">
+                <h4>Fugit cupiditate alias nobis.</h4>
+                <p class="pt-2">Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-3">
+              <div class="box p-4  d-flex justify-content-center align-items-center">
+                <div class="icon">
+                  <i class="fa-regular fa-face-smile"></i>
+                </div>
+                <div class="text">
+                  <h5 data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></h5>                  <p>Happy Clients</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box p-4  d-flex justify-content-center align-items-center">
+                <div class="icon">
+                  <i class="fa-regular fa-address-book"></i>
+                </div>
+                <div class="text">
+                  <h5 data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></h5>                  <p>Projects</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box p-4  d-flex justify-content-center align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-headset"></i>
+                </div>
+                <div class="text">
+                  <h5 data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></h5>
+                  <p>Hours Of Support</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box p-4  d-flex justify-content-center align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div class="text">
+                  <h5 data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></h5>                  <p>Hard Workers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features py-5" id="features">
+        <div class="container">
+          <div class="main-title">
+            <h3>FEATURES</h3>
+            <p>Laboriosam et omnis fuga quis dolor direda fara</p>
+          </div>
+          <div class="row align-items-center pb-4">
+            <div class="col-lg-6">
+              <div class="image">
+                <img class="img-fluid" src="img/features.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-5">
+              <div class="row gy-4 checks">
+                <div class="col-md-6">
+                  <div class="box d-flex align-items-center">
+                    <i class="fa-solid fa-check"></i>
+                    <h5>Eos aspernatur rem</h5>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box d-flex align-items-center">
+                    <i class="fa-solid fa-check"></i>
+                    <h5>Facilis neque ipsa</h5>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box d-flex align-items-center">
+                    <i class="fa-solid fa-check"></i>
+                    <h5>Volup amet voluptas</h5>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box d-flex align-items-center">
+                    <i class="fa-solid fa-check"></i>
+                    <h5>Rerum omnis sint</h5>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box d-flex align-items-center">
+                    <i class="fa-solid fa-check"></i>
+                    <h5>Alias possimus</h5>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box d-flex align-items-center">
+                    <i class="fa-solid fa-check"></i>
+                    <h5>Repellendus mollitia</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center py-5">
+            <div class="col-lg-6 py-5">
+              <div class="content">
+                <h3 class="fs-2 fw-bold mb-3">Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
+                <nav>
+                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active px-0 py-3 me-4" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SAEPE FUGA</button>
+                    <button class="nav-link px-0 py-3 me-4" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">VOLUPTATES</button>
+                    <button class="nav-link px-0 py-3 me-4" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">CORRUPTI</button>
+                  </div>
+                </nav>
+                <div class="tab-content pt-3" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                    <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                    <div class="text d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-check"></i>
+                      <h5>Repudiandae rerum velit modi et officia quasi facilis</h5>
+                    </div>
+                    <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                    <div class="text d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-check"></i>
+                      <h5>Incidunt non veritatis illum ea ut nisi</h5>
+                    </div>
+                    <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                    <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                    <div class="text d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-check"></i>
+                      <h5>Repudiandae rerum velit modi et officia quasi facilis</h5>
+                    </div>
+                    <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                    <div class="text d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-check"></i>
+                      <h5>Incidunt non veritatis illum ea ut nisi</h5>
+                    </div>
+                    <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                    <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                    <div class="text d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-check"></i>
+                      <h5>Repudiandae rerum velit modi et officia quasi facilis</h5>
+                    </div>
+                    <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                    <div class="text d-flex align-items-center mb-2">
+                      <i class="fa-solid fa-check"></i>
+                      <h5>Incidunt non veritatis illum ea ut nisi</h5>
+                    </div>
+                    <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-fluid" src="img/features-2.png" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <h3 class="text-center mb-4 fs-2 fw-bold">Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+            <div class="row align-items-center mt-5">
+              <div class="col-lg-4">
+                <img class="img-fluid p-4" src="img/features-3.png" alt="">
+              </div>
+              <div class="col-lg-8">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <div class="box d-flex">
+                      <i class="fa-solid fa-chart-line fs-1 me-3"></i>
+                      <div class="text">
+                        <h5 class="fw-bold">Corporis voluptates sit</h5>
+                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="box d-flex">
+                      <i class="fa-solid fa-brush fs-1 me-3"></i>
+                      <div class="text">
+                        <h5 class="fw-bold">Corporis voluptates sit</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="box d-flex">
+                      <i class="fa-solid fa-globe fs-1 me-3"></i>
+                      <div class="text">
+                        <h5 class="fw-bold">Corporis voluptates sit</h5>
+                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="box d-flex">
+                      <i class="fa-solid fa-layer-group fs-1 me-3"></i>
+                      <div class="text">
+                        <h5 class="fw-bold">Corporis voluptates sit</h5>
+                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="box d-flex">
+                      <i class="fa-solid fa-code-compare fs-1 me-3"></i>
+                      <div class="text">
+                        <h5 class="fw-bold">Corporis voluptates sit</h5>
+                        <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="box d-flex">
+                      <i class="fa-solid fa-satellite-dish fs-1 me-3"></i>
+                      <div class="text">
+                        <h5 class="fw-bold">Corporis voluptates sit</h5>
+                        <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services py-5" id="services">
+        <div class="container pt-5">
+          <div class="main-title">
+            <h3>SERVICES</h3>
+            <p>Veritatis et dolores facere numquam et praesentium</p>
+          </div>
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="box blue text-center h-100">
+                <i class="fa-regular fa-message icon"></i>
+                <h4 class="fw-bold fs-3">Nesciunt Mete</h4>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                <a href="#" class="main-btn bg-transparent"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box orange text-center h-100">
+                <i class="fa-regular fa-message icon"></i>
+                <h4 class="fw-bold fs-3">Nesciunt Mete</h4>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                <a href="#" class="main-btn bg-transparent"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box green text-center h-100">
+                <i class="fa-regular fa-message icon"></i>
+                <h4 class="fw-bold fs-3">Nesciunt Mete</h4>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                <a href="#" class="main-btn bg-transparent"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box red text-center h-100">
+                <i class="fa-regular fa-message icon"></i>
+                <h4 class="fw-bold fs-3">Nesciunt Mete</h4>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                <a href="#" class="main-btn bg-transparent"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box violet text-center h-100">
+                <i class="fa-regular fa-message icon"></i>
+                <h4 class="fw-bold fs-3">Nesciunt Mete</h4>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                <a href="#" class="main-btn bg-transparent"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box pink text-center h-100">
+                <i class="fa-regular fa-message icon"></i>
+                <h4 class="fw-bold fs-3">Nesciunt Mete</h4>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                <a href="#" class="main-btn bg-transparent"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pricing py-5">
+        <div class="container pt-5">
+          <div class="main-title">
+            <h3>PRICING</h3>
+            <p>Check our Pricing</p>
+          </div>
+          <div class="row text-center gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <h3 class="fw-bold mb-3 fs-5" style="color: #07d5c0;">Free Plan</h3>
+                <div class="price"><sup>$</sup>0<span> / mo</span></div>
+                <img src="img/pricing-free.png" alt="" class="img-fluid p-4">
+                <ul class="pt-2">
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li class="na">Pharetra massa</li>
+                  <li class="na">Massa ultricies mi</li>
+                </ul>
+                <a href="#" class="btn main-btn fw-semibold"><span>Buy Now</span></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <span class="featured">Featured</span>
+                <h3 class="fw-bold mb-3 fs-5" style="color: #65c600;">Starter Plan</h3>
+                <div class="price"><sup>$</sup>19<span> / mo</span></div>
+                <img src="img/pricing-starter.png" alt="" class="img-fluid p-4">
+                <ul class="pt-2">
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li class="na">Massa ultricies mi</li>
+                </ul>
+                <a href="#" class="btn main-btn fw-semibold"><span>Buy Now</span></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <h3 class="fw-bold mb-3 fs-5" style="color: #ff901c;">Business Plan</h3>
+                <div class="price"><sup>$</sup>29<span> / mo</span></div>
+                <img src="img/pricing-business.png" alt="" class="img-fluid p-4">
+                <ul class="pt-2">
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
+                </ul>
+                <a href="#" class="btn main-btn fw-semibold"><span>Buy Now</span></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <h3 class="fw-bold mb-3 fs-5" style="color: #ff0071;">Ultimate Plan</h3>
+                <div class="price"><sup>$</sup>49<span> / mo</span></div>
+                <img src="img/pricing-ultimate.png" alt="" class="img-fluid p-4">
+                <ul class="pt-2">
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
+                </ul>
+                <a href="#" class="btn main-btn fw-semibold"><span>Buy Now</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq py-5">
+        <div class="container pt-5">
+          <div class="main-title">
+            <h3>F.A.Q</h3>
+            <p>Frequently Asked Questions</p>
+          </div>
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Non consectetur a erat nam at lectus urna duis?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body ps-0">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body ps-0">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body ps-0">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="accordion accordion-flush" id="accordionFlushExample2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body ps-0">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body ps-0">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                      Varius vel pharetra vel turpis nunc eget lorem dolor?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body ps-0">Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portofolio py-5" id="portofolio">
+        <div class="container pt-4">
+          <div class="main-title">
+            <h3>PORTFOLIO</h3>
+            <p>Check our latest work</p>
+          </div>
+          <div class="row gy-4 text-center">
+            <ul class="nav justify-content-center p-0 nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-app-tab" data-bs-toggle="pill" data-bs-target="#pills-app" type="button" role="tab" aria-controls="pills-app" aria-selected="false">App</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-card-tab" data-bs-toggle="pill" data-bs-target="#pills-card" type="button" role="tab" aria-controls="pills-card" aria-selected="false">Card</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web" type="button" role="tab" aria-controls="pills-web" aria-selected="false">Web</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+                <div class="row gy-4">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-1.jpg" alt="">
+                      <div class="image-info">
+                        <h5>App 1</h5>
+                        <p>APP</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-2.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Web 3</h5>
+                        <p>WEB</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-3.jpg" alt="">
+                      <div class="image-info">
+                        <h5>App 2</h5>
+                        <p>APP</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-4.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Card 2</h5>
+                        <p>CARD</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-5.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Web 2</h5>
+                        <p>WEB</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-6.jpg" alt="">
+                      <div class="image-info">
+                        <h5>App 3</h5>
+                        <p>APP</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-7.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Card 1</h5>
+                        <p>CARD</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-8.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Card 3</h5>
+                        <p>CARD</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-9.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Web 1</h5>
+                        <p>WEB</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab" tabindex="0">
+                <div class="row gy-4">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-1.jpg" alt="">
+                      <div class="image-info">
+                        <h5>App 1</h5>
+                        <p>APP</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-3.jpg" alt="">
+                      <div class="image-info">
+                        <h5>App 2</h5>
+                        <p>APP</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-6.jpg" alt="">
+                      <div class="image-info">
+                        <h5>App 3</h5>
+                        <p>APP</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-card" role="tabpanel" aria-labelledby="pills-card-tab" tabindex="0">
+                <div class="row gy-4">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-4.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Card 2</h5>
+                        <p>CARD</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-7.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Card 1</h5>
+                        <p>CARD</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-8.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Card 3</h5>
+                        <p>CARD</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab" tabindex="0">
+                <div class="row gy-4">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-2.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Web 3</h5>
+                        <p>WEB</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-5.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Web 2</h5>
+                        <p>WEB</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/portfolio/portfolio-8.jpg" alt="">
+                      <div class="image-info">
+                        <h5>Card 3</h5>
+                        <p>CARD</p>
+                        <div class="image-links">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <i class="fa-solid fa-link icon"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="team py-5" id="team">
+        <div class="container pt-5">
+          <div class="main-title">
+            <h3>TEAM</h3>
+            <p>Our hard working team</p>
+          </div>
+          <div class="row gy-4 text-center">
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <div class="box-image">
+                  <img src="img/team/team-1.jpg" class="img-fluid" alt="...">
+                  <div class="social d-flex align-items-center flex-column">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+                <div class="box-body">
+                  <h3 class="fw-bold fs-5">Walter White</h3>
+                  <span class="d-block fw-lighter pb-3">Chief Executive Officer</span>
+                  <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <div class="box-image">
+                  <img src="img/team/team-2.jpg" class="img-fluid" alt="...">
+                  <div class="social d-flex align-items-center flex-column">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+                <div class="box-body">
+                  <h3 class="fw-bold fs-5">Sarah Jhonson</h3>
+                  <span class="d-block fw-lighter pb-3">Product Manager</span>
+                  <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <div class="box-image">
+                  <img src="img/team/team-3.jpg" class="img-fluid" alt="...">
+                  <div class="social d-flex align-items-center flex-column">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+                <div class="box-body">
+                  <h3 class="fw-bold fs-5">William Anderson</h3>
+                  <span class="d-block fw-lighter pb-3">CTO</span>
+                  <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <div class="box-image">
+                  <img src="img/team/team-4.jpg" class="img-fluid" alt="...">
+                  <div class="social d-flex align-items-center flex-column">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+                <div class="box-body">
+                  <h3 class="fw-bold fs-5">Amanda Jepson</h3>
+                  <span class="d-block fw-lighter pb-3">Accountant</span>
+                  <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clients" id="clients">
+
+        <div class="container pt-5 aos-init aos-animate" data-aos="fade-up">
+  
+          <div class="main-title">
+            <h3>Our Clients</h3>
+            <p>Temporibus omnis officia</p>
+          </div>
+  
+          <div class="clients-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events">
+            <div class="swiper-wrapper align-items-center" id="swiper-wrapper-ad10d9d4af8b5f825" aria-live="off" style="transform: translate3d(-2112px, 0px, 0px); transition-duration: 0ms;">
+              <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-3.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="4 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-4.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="5 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-5.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="5" role="group" aria-label="6 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-6.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="6" role="group" aria-label="7 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-7.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="7" role="group" aria-label="8 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-8.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide" data-swiper-slide-index="0" role="group" aria-label="1 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-1.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide" data-swiper-slide-index="1" role="group" aria-label="2 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-2.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-3.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-4.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide" data-swiper-slide-index="4" role="group" aria-label="5 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-5.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="5" role="group" aria-label="6 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-6.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="6" role="group" aria-label="7 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-7.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="7" role="group" aria-label="8 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" role="group" aria-label="1 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-1.png" class="img-fluid" alt=""></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" role="group" aria-label="2 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-2.png" class="img-fluid" alt=""></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-3.png" class="img-fluid" alt=""></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="4 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-4.png" class="img-fluid" alt=""></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="5 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-5.png" class="img-fluid" alt=""></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="5" role="group" aria-label="6 / 8" style="width: 56px; margin-right: 120px;"><img src="img/clients/client-6.png" class="img-fluid" alt=""></div></div>
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 7" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span></div>
+          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </div>
+      </div>
+      <div class="blog py-5" id="blog">
+        <div class="container pt-5">
+          <div class="main-title">
+            <h3>BLOG</h3>
+            <p>Recent posts form our Blog</p>
+          </div>
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="box">
+                <div class="box-image">
+                  <img class="img-fluid" src="img/blog/blog-1.jpg" alt="">
+                </div>
+                <div class="box-info p-4">
+                  <small>Tue, September 15</small>
+                  <h3 class="mb-5">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
+                  <a href="#" class="main-btn bg-transparent"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box">
+                <div class="box-image">
+                  <img class="img-fluid" src="img/blog/blog-2.jpg" alt="">
+                </div>
+                <div class="box-info p-4">
+                  <small>Fri, August 28</small>
+                  <h3 class="mb-5">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
+                  <a href="#" class="main-btn bg-transparent"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box">
+                <div class="box-image">
+                  <img class="img-fluid" src="img/blog/blog-3.jpg" alt="">
+                </div>
+                <div class="box-info p-4">
+                  <small>Mon, July 11</small>
+                  <h3 class="mb-5">Quia assumenda est et veritatis aut quae voluptates magnam</h3>
+                  <a href="#" class="main-btn bg-transparent"><span>Read More</span>  <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact py-5" id="contact">
+        <div class="container pt-5">
+          <div class="main-title">
+            <h3>CONTACT</h3>
+            <p>Contact Us</p>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <div class="box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Address</h4>
+                    <p>A108 Adam Street,<br>New York, NY 535022</p>             
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box">
+                    <i class="fa-solid fa-phone"></i>
+                    <h4>Call Us</h4>
+                    <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box">
+                    <i class="fa-regular fa-envelope"></i>
+                    <h4>Mail Us</h4>
+                    <p>info@example.com<br>contact@example.com</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>Open Hours</h4>
+                    <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form action="">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Your Name" name="name"> 
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" placeholder="Your Email" name="email"> 
+                  </div>
+                  <div class="col-md-12">
+                    <input type="text" placeholder="Subject" name="subject"> 
+                  </div>
+                  <div class="col-md-12 mb-2">
+                    <textarea name="message" placeholder="Message" rows="6"></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <a href="#" class="main-btn rounded-1">Send Message</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="newsletter text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-12 text-center">
+                <h4>Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              </div>
+              <div class="col-lg-6">
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-top bg-white">
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-lg-5 col-md-12">
+                <div class="logo  d-flex align-items-center">
+                  <img src="img/logo.png" alt="">
+                  <a class="navbar-brand ms-2" href="#">FlexStart</a>
+                </div>
+                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                <div class="social d-flex align-items-center">
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">Home</a></li>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">About Us</a></li>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">Services</a> </li>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">Terms of service</a></li>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-6">
+                <h4>Our Services</h4>
+                <ul>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">Web Design</a></li>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">Web Development</a></li>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">Product Management</a></li>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">Marketing</a></li>
+                  <li><i class="fa-solid fa-angle-right"></i> <a href="#">Graphic Design</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-12 contact">
+                <h4>Contact Us</h4>
+                <p class="lh-lg">
+                  A108 Adam Street <br>
+                  New York, NY 535022<br>
+                  United States <br><br>
+                  <strong>Phone:</strong> +1 5589 55488 55<br>
+                  <strong>Email:</strong> info@example.com<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="copyright">
+            © Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/" class="text-decoration-none">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="vendor/aos/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
